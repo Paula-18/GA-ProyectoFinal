@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-05-2022 a las 03:45:19
+-- Tiempo de generación: 08-05-2022 a las 07:15:34
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.8
 
@@ -43,7 +43,8 @@ CREATE TABLE `estudiantes` (
 --
 
 INSERT INTO `estudiantes` (`id`, `nombre`, `matricula`, `carrera`, `promedio`, `foto`, `created_at`, `updated_at`) VALUES
-(1, 'Maria Jimenez', '198730', 'Ing. Biomedica', '9.3', 'EYTOUYdku90iWx4f1h2Wco3A9lfSkFnibtrjDiSf.jpg', '2022-05-08 08:43:24', '2022-05-08 08:43:24');
+(1, 'Maria Jimenez', '198730', 'Ing. Biomedica', '9.3', 'EYTOUYdku90iWx4f1h2Wco3A9lfSkFnibtrjDiSf.jpg', '2022-05-08 08:43:24', '2022-05-08 08:43:24'),
+(2, 'Jose Perez', '185647', 'Multimedia', '9.6', 'UDEZW8V3OPwu70xz1XFOQLmkOQntK79sKWpaI9My.png', '2022-05-08 12:10:53', '2022-05-08 12:10:53');
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +64,7 @@ ALTER TABLE `estudiantes`
 -- AUTO_INCREMENT de la tabla `estudiantes`
 --
 ALTER TABLE `estudiantes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
